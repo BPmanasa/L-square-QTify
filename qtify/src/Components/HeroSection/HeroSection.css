@@ -1,0 +1,35 @@
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--css-black);
+  width: 100%;
+  height: 270px;
+  top: 74px;
+  color: var(--css-white);
+}
+
+.bg {
+  display: flex;
+  align-items: center;
+  width: 799px;
+  height: 212px;
+  margin-top: 103px;
+  margin-bottom: 103px;
+
+  margin-left: 328px;
+  margin-right: 328px;
+}
+
+.headphone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 212px;
+  height: 212px;
+}
+
+.content {
+  width: 556px;
+  height: 100px;
+}
