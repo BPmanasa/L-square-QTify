@@ -1,9 +1,8 @@
 .background {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   background-color: var(--css-black);
-  width: 100%;
+  width: 100vw;
   height: 270px;
   top: 74px;
   color: var(--css-white);
@@ -33,7 +32,7 @@
   width: 556px;
   height: 100px;
   font-family: Poppins;
-  font-size: 26px;
+  font-size: 32px;
   font-weight: 600;
   line-height: 48px;
   letter-spacing: 0px;
