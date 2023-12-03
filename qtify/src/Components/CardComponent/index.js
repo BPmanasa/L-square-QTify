@@ -1,10 +1,10 @@
 import "./CardComponent.css";
-export default ({ imgSrc, label, followersCount }) => {
+const CardComponent = ({ imgSrc, label, followersCount }) => {
   return (
     <div className="card-wrapper">
       <div className="card">
         <div className="card-img-frame">
-          <img className="card-img" src={imgSrc} />
+          <img className="card-img" src={imgSrc} alt="card" />
         </div>
         <div className="card-content">
           <div className="card-content-pill">
@@ -16,3 +16,5 @@ export default ({ imgSrc, label, followersCount }) => {
     </div>
   );
 };
+
+export default CardComponent;
